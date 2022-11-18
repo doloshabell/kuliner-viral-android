@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/foodstreet"
+    android:orientation="vertical"
+    tools:context=".activities.FormKulinerViralActivity">
+
+    <LinearLayout
+        android:id="@+id/formSecondLinearLayoutKulinerViral"
+        android:alpha=".9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_shape"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Kuliner Viral"
+            android:textAlignment="center"
+            android:textSize="36dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etNamaLokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lokasi" />
+
+        <EditText
+            android:id="@+id/etKeterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan" />
+
+        <EditText
+            android:id="@+id/etKontributor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kontributor" />
+
+        <EditText
+            android:id="@+id/etLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Latitude" />
+
+        <EditText
+            android:id="@+id/etLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Longitude" />
+
+        <Button
+            android:id="@+id/btnShowMap"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Show Map"
+            android:textAllCaps="false"
+            android:layout_width="150dp" />
+
+        <Button
+            android:id="@+id/btnSimpanFormKulinerViral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Simpan"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pencil">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/androidstudioicon"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Daftar!"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinsextra"
+        android:textSize="16pt"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mari gabung bersama kami ;)"
+        android:gravity="center"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="8pt"
+        android:textColor="@color/primary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp">
+
+        <EditText
+            android:id="@+id/etNamaLengkapRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nama"
+            android:hint="Nama Lengkap"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:paddingTop="4dp"/>
+
+        <EditText
+            android:id="@+id/etEmailRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/email"
+            android:hint="Email"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:paddingTop="4dp"/>
+
+        <EditText
+            android:id="@+id/etPasswordRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:paddingTop="4dp"/>
+
+        <EditText
+            android:id="@+id/etConfirmPasswordRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/password"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:paddingTop="4dp"/>
+
+        <Button
+            android:id="@+id/btnUserRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp"
+            android:background="@drawable/button_shape"
+            android:text="Daftar"
+            android:fontFamily="@font/poppinsbold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah punya akun? "
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/primary"/>
+
+            <TextView
+                android:id="@+id/buttonLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:fontFamily="@font/poppinssemibold"
+                android:textColor="@color/primary"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
